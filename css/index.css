@@ -157,6 +157,11 @@ nav a:not(:last-child) {
 nav a:hover {
   color: #888;
 }
+@media (max-width: 500px) {
+  nav {
+    padding-right: 2rem;
+  }
+}
 .intro-ctn {
   background-color: #def7f3;
   padding: 3rem;
@@ -199,6 +204,11 @@ nav a:hover {
 .skills-ctn .skills-paragraph {
   width: 25%;
 }
+@media (max-width: 500px) {
+  .skills-ctn .skills-paragraph {
+    width: 90%;
+  }
+}
 .skills-ctn .skills-paragraph h2 {
   font-size: 2.5rem;
 }
@@ -207,6 +217,11 @@ nav a:hover {
 }
 .skills-ctn .skills-list {
   width: 45%;
+}
+@media (max-width: 500px) {
+  .skills-ctn .skills-list {
+    width: 90%;
+  }
 }
 .skills-ctn .skills-list h2 {
   font-size: 2.5rem;
@@ -217,6 +232,11 @@ nav a:hover {
 .skills-ctn .skills-list li {
   padding: 1rem;
   border: 1px solid #def7f3;
+}
+@media (max-width: 500px) {
+  .skills-ctn {
+    flex-direction: column;
+  }
 }
 .work-ctn {
   color: #888;
