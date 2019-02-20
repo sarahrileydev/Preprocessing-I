@@ -23,7 +23,8 @@
 }
 
 .bordered() {
-	border: 1px solid @main-color;
+	border-top: 1px solid @main-color;
+	border-bottom: 1px solid @accent-color;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -165,7 +166,7 @@ nav {
 		@media (max-width: 500px){
 			width: 90%;
 		}
-		
+
 		h2 {
 			font-size: 2.5rem;
 		}
@@ -191,7 +192,7 @@ nav {
 
 		li {
 			padding: 1rem;
-			border: 1px solid @main-color;
+			.bordered();
 		}
 	}//skills-list
 

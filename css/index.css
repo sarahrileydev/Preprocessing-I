@@ -231,7 +231,8 @@ nav a:hover {
 }
 .skills-ctn .skills-list li {
   padding: 1rem;
-  border: 1px solid #def7f3;
+  border-top: 1px solid #def7f3;
+  border-bottom: 1px solid #8ebebc;
 }
 @media (max-width: 500px) {
   .skills-ctn {
@@ -251,7 +252,8 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #def7f3;
+  border-top: 1px solid #def7f3;
+  border-bottom: 1px solid #8ebebc;
 }
 .work-ctn li {
   display: flex;
