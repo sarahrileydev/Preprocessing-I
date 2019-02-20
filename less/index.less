@@ -68,10 +68,6 @@ html, body {
 		font-family: @font-stack;
 }
 
-h1, h2, h3, h4, h5 {
-  font-size: 3rem;
-}
-
 .container {
   max-width: 1024px;
 	margin: 0 auto;
@@ -97,7 +93,7 @@ nav {
 	a:not(:last-child){
 		padding-right: 2.5rem;
 	}
-	
+
 	a:hover {
 		color: @text-color;
 	}
@@ -105,11 +101,75 @@ nav {
 
 .intro-ctn {
 	background-color: @main-color;
-
+	padding: 3rem;
+	color: @text-color;
 
 	.profile-pic {
-		margin-top: 2rem;
 		width: 30%;
 	  height: auto;
+	}
+
+	h1 {
+		margin: 3rem 0;
+		font-size: 4rem;
+	}
+
+	h2 {
+		margin-bottom: 3rem;
+		font-size: 3rem;
+	}
+
+	p {
+		line-height: 1.3;
+	}
+
+	button {
+		margin: 4rem 0;
+		background-color: @accent-color;
+		border: none;
+		border-radius: 1rem;
+		padding: 2rem 5rem;
+		font-size: 2rem;
+		color: white;
+		cursor: pointer;
+	}
+
+	button:hover {
+		background-color: @text-color
+	}
+}
+
+.skills-ctn {
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem;
+	color: @text-color;
+
+	.skills-paragraph {
+		width: 25%;
+
+		h2 {
+			font-size: 2.5rem;
+		}
+
+		p {
+			margin: 3rem 0;
+		}
+	}
+	.skills-list {
+		width: 45%;
+
+		h2{
+			font-size: 2.5rem;
+		}
+
+		ul {
+			margin: 3rem 0;
+		}
+
+		li {
+			padding: 1rem;
+			border: 1px solid @main-color;
+		}
 	}
 }

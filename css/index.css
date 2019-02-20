@@ -136,13 +136,6 @@ body {
   font-size: 62.5%;
   font-family: 'Source Sans Pro', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-size: 3rem;
-}
 .container {
   max-width: 1024px;
   margin: 0 auto;
@@ -166,9 +159,62 @@ nav a:hover {
 }
 .intro-ctn {
   background-color: #def7f3;
+  padding: 3rem;
+  color: #888;
 }
 .intro-ctn .profile-pic {
-  margin-top: 2rem;
   width: 30%;
   height: auto;
+}
+.intro-ctn h1 {
+  margin: 3rem 0;
+  font-size: 4rem;
+}
+.intro-ctn h2 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+.intro-ctn p {
+  line-height: 1.3;
+}
+.intro-ctn button {
+  margin: 4rem 0;
+  background-color: #8ebebc;
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem 5rem;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+.intro-ctn button:hover {
+  background-color: #888;
+}
+.skills-ctn {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  color: #888;
+}
+.skills-ctn .skills-paragraph {
+  width: 25%;
+}
+.skills-ctn .skills-paragraph h2 {
+  font-size: 2.5rem;
+}
+.skills-ctn .skills-paragraph p {
+  margin: 3rem 0;
+}
+.skills-ctn .skills-list {
+  width: 45%;
+}
+.skills-ctn .skills-list h2 {
+  font-size: 2.5rem;
+}
+.skills-ctn .skills-list ul {
+  margin: 3rem 0;
+}
+.skills-ctn .skills-list li {
+  padding: 1rem;
+  border: 1px solid #def7f3;
 }
