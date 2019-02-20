@@ -133,4 +133,42 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 3rem;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #8ebebc;
+}
+nav a:not(:last-child) {
+  padding-right: 2.5rem;
+}
+nav a:hover {
+  color: #888;
+}
+.intro-ctn {
+  background-color: #def7f3;
+}
+.intro-ctn .profile-pic {
+  margin-top: 2rem;
+  width: 30%;
+  height: auto;
 }
