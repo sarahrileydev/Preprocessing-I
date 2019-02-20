@@ -12,6 +12,19 @@
 // Font Variables
 @font-stack: 'Source Sans Pro', sans-serif;
 
+// Mixin
+.center(){
+	justify-content: center;
+	align-items: center;
+}
+
+.padding() {
+	padding: 2rem 2rem;
+}
+
+.bordered() {
+	border: 1px solid @main-color;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,15 +86,12 @@ html, body {
 	margin: 0 auto;
 	font-size: 1.8rem;
 }
-// Variables: Incorporate variables in your project for color and font stacks.
-//  Nesting: Every selector should be nested inside the main container. Avoid having global styles unless they are element level.
-//  Mixins: Create 2 mixins of your choosing. Hint: It's super helpful to use flexbox properties in mixins
 //  Mobile: Use nested-at rules to provide a mobile version of your resume. Use 500px as a max-width for mobile.
 
 nav {
 	display: flex;
 	justify-content: flex-end;
-	padding: 2rem;
+	padding: 2rem 0;
 
 	a {
 		font-size: 2rem;
@@ -172,4 +182,34 @@ nav {
 			border: 1px solid @main-color;
 		}
 	}
+}
+
+.work-ctn {
+	color: #888;
+	margin: 3rem;
+
+  h2 {
+		font-size: 2.5rem;
+		margin-bottom: 2rem;
+	}
+	
+	ul{
+		display: flex;
+		.center;
+		justify-content: space-between;
+		.bordered();
+	}
+
+	li {
+		display: flex;
+		.padding();
+		justify-content: flex-start;
+	}
+}
+
+footer {
+	text-align: center;
+	color: @text-color;
+	padding: 5rem 0;
+	background-color: @main-color;
 }

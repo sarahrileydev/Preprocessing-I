@@ -144,7 +144,7 @@ body {
 nav {
   display: flex;
   justify-content: flex-end;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 nav a {
   font-size: 2rem;
@@ -217,4 +217,30 @@ nav a:hover {
 .skills-ctn .skills-list li {
   padding: 1rem;
   border: 1px solid #def7f3;
+}
+.work-ctn {
+  color: #888;
+  margin: 3rem;
+}
+.work-ctn h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.work-ctn ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #def7f3;
+}
+.work-ctn li {
+  display: flex;
+  padding: 2rem 2rem;
+  justify-content: flex-start;
+}
+footer {
+  text-align: center;
+  color: #888;
+  padding: 5rem 0;
+  background-color: #def7f3;
 }
