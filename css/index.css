@@ -206,6 +206,7 @@ nav a:hover {
 }
 .skills-ctn .skills-paragraph {
   width: 25%;
+  line-height: 1.3;
 }
 @media (max-width: 500px) {
   .skills-ctn .skills-paragraph {
