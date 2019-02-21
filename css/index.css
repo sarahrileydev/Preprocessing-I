@@ -189,8 +189,11 @@ nav a:hover {
   border-radius: 1rem;
   padding: 2rem 5rem;
   font-size: 2rem;
-  color: white;
   cursor: pointer;
+}
+.intro-ctn button a {
+  text-decoration: none;
+  color: white;
 }
 .intro-ctn button:hover {
   background-color: #888;
